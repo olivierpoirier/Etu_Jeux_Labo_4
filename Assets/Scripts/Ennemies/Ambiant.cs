@@ -38,7 +38,7 @@ public class Ambiant : MonoBehaviour
             //Choisi un sons aléatoire de la liste de sons et le fait jouer
             AudioClip soundToPlay = listAmbiantSounds[Random.Range(0,listAmbiantSounds.Count)];
             audioSource.PlayOneShot(soundToPlay, volume);
-            Debug.Log("played the sound" + soundToPlay);
+            //Debug.Log("played the sound" + soundToPlay);
 
             //Choisi aléatoirement le prochain moment pour le prochain son avec le nombre
             //minimum de secondes et le nombre maximal de secondes à attendre

@@ -54,7 +54,7 @@ public class FollowPlayerRange : MonoBehaviour
                 elapsedTime = 0;
                 AudioClip soundToPlay = listStepSounds[Random.Range(0,listStepSounds.Count)];
                 audioSource.PlayOneShot(soundToPlay, volume);
-                Debug.Log("played the sound" + soundToPlay);
+                //Debug.Log("played the sound" + soundToPlay);
             }
         } else {
             //Désactiver l'animation de déplacement

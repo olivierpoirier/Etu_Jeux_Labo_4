@@ -23,7 +23,7 @@ public class LookAtPlayerRange : MonoBehaviour
 
             //Permet à la créature de regarder le joueur
             transform.LookAt(player.transform);
-            print("je regarde le joueur");
+            //print("je regarde le joueur");
         }
     }
 }

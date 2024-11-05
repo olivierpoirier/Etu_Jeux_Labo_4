@@ -29,7 +29,7 @@ public class MakeSoundsOnInterval : MonoBehaviour
             AudioClip soundToPlay = listOfSounds[Random.Range(0,listOfSounds.Count)];
             audioSource.PlayOneShot(soundToPlay, volume);
             nextMomentPlaySound = Random.Range(minNumberSecondsToPlay, maxNumberSecondsToPlay);
-            Debug.Log("played the sound" + soundToPlay);
+            //Debug.Log("played the sound" + soundToPlay);
         }
 
     } 

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6844833443984060736}
   - component: {fileID: 5475590952316232756}
   - component: {fileID: 7149013933049291612}
-  - component: {fileID: 2864418565289681418}
   m_Layer: 0
   m_Name: Creep
   m_TagString: Untagged
@@ -81,30 +80,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2864418565289681418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4116466468593185207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0d21a6676dea1543bb8636294e24151, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  maxAttackRange: 3
-  minAttackRange: 0
-  seenMaxRange: 7
-  audioSource: {fileID: 2903220354901394846}
-  volume: 1
-  soundsToPlay:
-  - {fileID: 8300000, guid: 887f966f09b99084885f54c4fa4f50a7, type: 3}
-  - {fileID: 8300000, guid: cbb64215cf7274e42961015f81310104, type: 3}
-  - {fileID: 8300000, guid: 5baae348c208db045b31f67612356b68, type: 3}
-  - {fileID: 8300000, guid: 5bbd1105e782b9440b0bb3117fdd4b59, type: 3}
-  - {fileID: 8300000, guid: de13cbe5cbe276e49a64d0db15983f30, type: 3}
 --- !u!1 &5419883121299220367
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,9 +287,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 055d3fd7bd3901042a44bb13f3160e0e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 389708130600233758}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 055d3fd7bd3901042a44bb13f3160e0e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7015453565432854866}
   m_SourcePrefab: {fileID: 100100000, guid: 055d3fd7bd3901042a44bb13f3160e0e, type: 3}
 --- !u!4 &5002106587019341433 stripped
 Transform:
@@ -347,25 +319,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7015453565432854866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5629743474889569475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0d21a6676dea1543bb8636294e24151, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  maxAttackRange: 3
-  minAttackRange: 0
-  seenMaxRange: 7
-  audioSource: {fileID: 0}
-  volume: 1
-  soundsToPlay: []
 --- !u!137 &6070864865166513344 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: 055d3fd7bd3901042a44bb13f3160e0e, type: 3}

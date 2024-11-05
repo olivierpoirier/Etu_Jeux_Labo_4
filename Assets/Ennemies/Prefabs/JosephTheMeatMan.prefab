@@ -309,12 +309,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e20dc18c04ef924b8dc6d13b87295be, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1114677781440529406}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e20dc18c04ef924b8dc6d13b87295be, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5395992142785849349}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e20dc18c04ef924b8dc6d13b87295be, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6390516513201816812}
   m_SourcePrefab: {fileID: 100100000, guid: 9e20dc18c04ef924b8dc6d13b87295be, type: 3}
 --- !u!1 &7330291794177987104 stripped
 GameObject:
@@ -342,51 +336,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5395992142785849349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7330291794177987104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0d21a6676dea1543bb8636294e24151, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  maxAttackRange: 2
-  minAttackRange: 0
-  seenMaxRange: 10
-  audioSource: {fileID: 3453046512491893586}
-  volume: 0
-  soundsToPlay:
-  - {fileID: 8300000, guid: 599728c96c0055943a4707f1eacfd392, type: 3}
-  - {fileID: 8300000, guid: 170c978187daf28498d8f2cdbe1dc3cb, type: 3}
-  - {fileID: 8300000, guid: 4fbb21ba999848f4db307958c2b4e427, type: 3}
---- !u!114 &6390516513201816812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7330291794177987104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93af9bdea66b8744999737f9874998cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 3453046512491893586}
-  listOfSounds:
-  - {fileID: 8300000, guid: 5e3b4b4c9edcea64bb56c6541eb96212, type: 3}
-  - {fileID: 8300000, guid: 4ccce40b38c9b91428978a31d4b66e14, type: 3}
-  - {fileID: 8300000, guid: e3daeb308790c6c4e92ac7952a5b2501, type: 3}
-  - {fileID: 8300000, guid: 062bb768a4f37cb44a64d3306b695314, type: 3}
-  - {fileID: 8300000, guid: 3916356e0aa4fc441ac5cc5baaeca285, type: 3}
-  - {fileID: 8300000, guid: c76752edd90933946afecd718377ba69, type: 3}
-  maxNumberSecondsToPlay: 20
-  minNumberSecondsToPlay: 7
-  volume: 1
 --- !u!4 &7994378758716967066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9e20dc18c04ef924b8dc6d13b87295be, type: 3}

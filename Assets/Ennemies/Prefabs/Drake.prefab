@@ -194,9 +194,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf75bb23c99b7924884bb932b1d275b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6960137699451657399}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf75bb23c99b7924884bb932b1d275b1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1777900068439667305}
   m_SourcePrefab: {fileID: 100100000, guid: cf75bb23c99b7924884bb932b1d275b1, type: 3}
 --- !u!1 &6096398552259338789 stripped
 GameObject:
@@ -224,27 +221,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1777900068439667305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6096398552259338789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0d21a6676dea1543bb8636294e24151, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  maxAttackRange: 2
-  minAttackRange: 0
-  seenMaxRange: 5
-  audioSource: {fileID: 481474931536552224}
-  volume: 1
-  soundsToPlay:
-  - {fileID: 8300000, guid: 75370c22eef5100468fa5c6ee010f00f, type: 3}
-  - {fileID: 8300000, guid: cb5e7c45af89d1140aeb74524b68e385, type: 3}
 --- !u!4 &6904320055407802527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf75bb23c99b7924884bb932b1d275b1, type: 3}
